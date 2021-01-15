@@ -2,5 +2,5 @@ image:
   file: .gitpod.Dockerfile
 
 tasks:
-  - init: npm install
+  - init: nvm use && npm install
     command: npm run start
