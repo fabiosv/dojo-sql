@@ -1,0 +1,23 @@
+{
+  "name": "sql-orm",
+  "version": "1.0.0",
+  "description": "Base code for SQL Dojo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "sequelize-migrate": "sequelize-cli db:migrate",
+    "lint": "eslint --fix --ext .js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  }
+}
